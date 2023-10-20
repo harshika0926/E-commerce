@@ -1,0 +1,51 @@
+.front-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .front-halve {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .front-halve.full-width {
+    flex: 2.17; /* Make this section take up more space */
+  }
+  
+  .front-itm {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .front-itm img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .front-itm h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .front-itm p {
+    margin: 5px 0;
+  }
+  .small-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .small-images img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ccc ;
+  }
+  

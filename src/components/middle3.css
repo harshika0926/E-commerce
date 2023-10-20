@@ -1,0 +1,26 @@
+.horizontal-menu {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+   
+    display: inline-block;
+    min-width: 120px; /* Adjust the minimum width as needed */
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the menu items */
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #ccc; /* Background color on hover */
+  }
+  

@@ -1,0 +1,48 @@
+/* Add your custom styles for the Hero component here */
+
+.hero-container {
+    background: #fff url('https://electro.madrasthemes.com/wp-content/uploads/2019/01/background.jpg') repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(30, 221, 221);
+  }
+  
+  .hero-description {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .hero-button {
+    background-color: #FFA500; /* Yellow button color */
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #FFD700; /* Lighter yellow on hover */
+  }
+  
+  .hero-image {
+    max-width: 20%; /* Adjust the size of the image as needed */
+    height: auto;
+
+  }
+  

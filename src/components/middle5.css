@@ -1,0 +1,66 @@
+.scroll-section {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .scroll-menu {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100px; /* Adjust the width as needed */
+    border-right: 1px solid #ccc;
+    overflow-y: auto; /* Add a vertical scroll bar for menu */
+    background-color: #f0f0f0;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #ccc;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Add a horizontal scroll bar */
+  }
+  
+  .product {
+    flex: 0 0 calc(33.33% - 10px); /* Display 3 columns at a time */
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+  }
+  
+  .image {
+    flex: 0 0 50%;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    flex: 0 0 50%;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

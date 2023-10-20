@@ -1,0 +1,92 @@
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tile-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .tile {
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the tile */
+  }
+  
+  .tile-image {
+    max-width: 100px; /* Adjust the image size as needed */
+    flex: 1;
+  }
+  
+  .tile-image img {
+    max-width: 123%;
+    height: auto;
+  }
+  
+  .tile-content {
+    flex: 2;
+    text-align: left;
+    padding: 0 20px; /* Adjust the spacing as needed */
+  }
+  
+  .shop-now {
+    background-color: #FFA500; /* Yellow button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .shop-now:hover {
+    background-color: #FFD700; /* Lighter yellow on hover */
+  }
+  
+  .slider-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slider-bar button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+  }
+  
+  .slider-bar button:hover {
+    background-color: #FFD700;
+  }
+  
+  .slider-bar span {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  /* Optional: You can style the active button differently if desired */
+  .slider-bar button.active {
+    background-color: #FFD700;
+    font-weight: bold;
+    /* Add other styles for the active button */
+  }
+  

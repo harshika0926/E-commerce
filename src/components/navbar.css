@@ -1,0 +1,66 @@
+/* In your CSS file, or you can use a CSS-in-JS solution like styled-components */
+
+.navbar-container {
+    background: #FFD700; /* Yellow background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem; /* Adjust the height as needed */
+    padding: 0 2rem; /* Adjust the padding as needed */
+  }
+  
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon span {
+    margin-left: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icon {
+    margin-right: 1rem; /* Adjust the margin as needed */
+  }
+  
+  /* Cursor pointer style for icons */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  /* CSS Styles */
+/*.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    top: 0;
+    left: 100%;
+  }
+  
+  .sub-menu li {
+    padding: 10px;
+    cursor: pointer;
+  }*/
+  
